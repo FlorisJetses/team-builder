@@ -1,0 +1,41 @@
+{
+	"name": "team-builder",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"preview": "vite preview",
+		"build": "vite build",
+		"lint": "eslint --max-warnings 0 --fix . && svelte-check",
+		"dev": "vite dev"
+	},
+	"dependencies": {
+		"@tanstack/svelte-query": "^4.29.19",
+		"@trpc/client": "^10.33.0",
+		"zod": "^3.21.4",
+		"devalue": "^4.3.2",
+		"trpc-svelte-query": "1.0.1",
+		"svelte": "^4.0.0",
+		"@trpc/server": "^10.33.0",
+		"@sveltejs/kit": "^1.20.5"
+	},
+	"devDependencies": {
+		"eslint": "^8.43.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte-check": "^3.4.4",
+		"@typescript-eslint/eslint-plugin": "^5.60.1",
+		"eslint-plugin-svelte": "^2.32.0",
+		"@typescript-eslint/parser": "^5.60.1",
+		"eslint-plugin-prettier": "^4.2.1",
+		"vite": "^4.3.9",
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.24",
+		"prettier": "^2.8.8",
+		"eslint-config-prettier": "^8.8.0",
+		"typescript": "~5.1.5",
+		"postcss-load-config": "^4.0.1",
+		"tailwindcss": "^3.3.2",
+		"@sveltejs/adapter-auto": "^2.1.0",
+		"svelte-preprocess": "^5.0.4",
+		"prettier-plugin-tailwindcss": "^0.3.0"
+	}
+}
